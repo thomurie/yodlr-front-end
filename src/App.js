@@ -1,9 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import SignUp from "./signup";
+import AdminConsole from "./admin";
+import "./App.css";
+import SingIn from "./signIn";
 
 function App() {
   return (
     <div className="App">
+      <SignUp></SignUp>
+      <SingIn></SingIn>
+      <AdminConsole></AdminConsole>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
